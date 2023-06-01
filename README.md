@@ -9,7 +9,7 @@ This analysis was conducted in order to create a binary classifier to help Alpha
 * The variables that were removed from the input data were `EIN` and `NAME` as they were identification columns. 
 
 #### Compiling, Training, and Evaluating the Model
-For the first model, 
+For the first model, only 2 hidden layers were used, with the first layer having 80 neurons and the second layer having 30. Relu was used as the activation function for both 
 
 
 How many neurons, layers, and activation functions did you select for your neural network model, and why?
@@ -17,6 +17,7 @@ Were you able to achieve the target model performance?
 What steps did you take in your attempts to increase model performance?
 Summary: Summarize the overall results of the deep learning model. Include a recommendation for how a different model could solve this classification problem, and then explain your recommendation.
 
+#### Resources
 converting value_counts to list:  https://stackoverflow.com/questions/35523635/extract-values-in-pandas-value-counts
 
 pd.get_dummies on multiple columns: https://stackoverflow.com/questions/24109779/running-get-dummies-on-several-dataframe-columns
