@@ -3,15 +3,13 @@
 ## Report
 This analysis was conducted in order to create a binary classifier to help Alphabet Soup, a nonprofit foundation, select those applicants who have the best chance of success so that they can make judicious use of their funding resources. To create a tool to predict whether applicants that are funded by Alphabet Soup will be successful or not, a dataset from the company's business team was used which contains information on more than 34,000 organizations
 
-write a report on the performance of the deep learning model you created for Alphabet Soup.
-
-The report should contain the following:
-
-Overview of the analysis: Explain the purpose of this analysis.
+#### Data Preprocessing
+* The target variable for the model was the `IS_SUCCESSFUL` variable which indicates whether the money was used effectively by the organization (a.k.a the organization was successful). 
+* The feature variables of the model were Application Type, Affiliation, Classification, Use case, Organization, Status, Income amount, Special considerations and Ask amount. Among these, all except Ask amount were categorical variables. Bins were created for those variables that contained rare values which were grouped into the "Other" category.
 
 Results: Using bulleted lists and images to support your answers, address the following questions:
 
-Data Preprocessing
+
 
 What variable(s) are the target(s) for your model?
 What variable(s) are the features for your model?
