@@ -9,7 +9,7 @@ This analysis was conducted in order to create a binary classifier to help Alpha
 * The variables that were removed from the input data were `EIN` and `NAME` as they were identification columns. 
 
 #### Compiling, Training, and Evaluating the Model
-For the first model, only 2 hidden layers were used, with the first layer having 80 neurons and the second layer having 30. Relu was used as the activation function for both 
+For the first model, only 2 hidden layers were used, with the first layer having 80 neurons and the second layer having 30. Relu was used as the activation function for both hidden layers since the values are between 0 and positive infinity and sigmoid was used for the output layer since the outcome variable is binary. The model was run for 100 epochs and yielded a test accuracy of 72.
 
 
 How many neurons, layers, and activation functions did you select for your neural network model, and why?
