@@ -5,16 +5,12 @@ This analysis was conducted in order to create a binary classifier to help Alpha
 
 #### Data Preprocessing
 * The target variable for the model was the `IS_SUCCESSFUL` variable which indicates whether the money was used effectively by the organization (a.k.a the organization was successful). 
-* The feature variables of the model were Application Type, Affiliation, Classification, Use case, Organization, Status, Income amount, Special considerations and Ask amount. Among these, all except Ask amount were categorical variables. Bins were created for those variables that contained rare values which were grouped into the "Other" category.
+* The feature variables of the model were Application Type, Affiliation, Classification, Use case, Organization, Status, Income amount, Special considerations and Ask amount. Among these, all except Ask amount were categorical variables. Bins were created for those variables that contained rare values which were grouped into the "Other" category. These variables were then converted into dummy variables.
+* The variables that were removed from the input data were `EIN` and `NAME` as they were identification columns. 
 
-Results: Using bulleted lists and images to support your answers, address the following questions:
+#### Compiling, Training, and Evaluating the Model
+For the first model, 
 
-
-
-What variable(s) are the target(s) for your model?
-What variable(s) are the features for your model?
-What variable(s) should be removed from the input data because they are neither targets nor features?
-Compiling, Training, and Evaluating the Model
 
 How many neurons, layers, and activation functions did you select for your neural network model, and why?
 Were you able to achieve the target model performance?
